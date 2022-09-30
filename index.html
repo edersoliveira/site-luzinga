@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Luz Ingá</title>
+</head>
+<body>
+
+    <!--Linha com menus-->
+    
+    <div id="Cabeçalho">
+        <a class="cabeça" href="#Sala">Sala</a>
+        <a class="cabeça" href="#Cozinha">Cozinha</a>
+        <a class="cabeça" href="#Quarto">Quarto</a>
+        <a class="cabeça" href="#Banheiro">Banheiro</a>
+        
+    </div>
+    
+    <div id="corpo">
+        <div>
+            <h1>O melhor da decoração para sua casa</h1>
+            <p class="paragrafos">Visite nossos ambientes decorados e verifique de perto
+                a qualidade dos nossos produtos.
+            </p>
+        </div>
+        <div>
+            <h2 id="Sala">Sala</h2>
+            <p class="paragrafos">Procure combinar sempre as cores dentro da sala de estar pequena
+                e opte por móveis em cores neutras e acessórios coloridos.
+                Os quadros para decorar sala pequena com pouco dinheiro podem
+                ter molduras que combinam com as almofadas.
+            </p class="paragrafos">
+            <div class="imagens">
+                <img src="./Sala/sala1.jpg">
+                <img src="./Sala/sala2.jpg">
+                <img src="./Sala/sala3.jpg">
+                </div>
+        </div>
+        <div>
+            <h2 id="Cozinha">Cozinha</h2>
+            <p class="paragrafos">As paredes da cozinha devem receber uma decoração especial
+                com pratos decorativos, prateleiras, suportes de apoio e
+                pequenos quadros. Você pode priorizar em qualquer tamanho de cozinha
+                as prateleiras de madeira, onde poderá pendurar ou apoiar pratos,
+                canecas coloridas, bibelôs e outros enfeites.
+            </p>
+            <div class="imagens">
+            <img src="./Cozinha/coz1.jpg">
+            <img src="./Cozinha/coz2.jpg">
+            <img src="./Cozinha/coz3.jpg">
+            </div>
+        </div>
+        <div>
+            <h2 id="Quarto">Quarto</h2>
+            <p class="paragrafos">Para decoração de quarto de simples procure utilizar tons
+                neutros nas paredes e investir em móveis como o criado-mudo ao
+                lado da cama, para apoiar livros, luminária, puffs e vaso de flor.
+                Lembrando que os quadros são muito bem-vindos e deixam a decoração do
+                quarto de menina simples muito mais alegre e divertido.
+            </p>
+            <div class="imagens">
+            <img src="./Quarto/quar1.jpg">
+            <img src="./Quarto/quar2.jpg">
+            <img src="./Quarto/quar3.jpg">
+            </div>
+        </div>
+        <div>
+            <h2 id="Banheiro">Banheiro</h2>
+            <p class="paragrafos">Procure utilizar caixas, cestos e bandejas para banheiro,
+                pois além de tornarem o ambiente mais acolhedor são ótimos
+                por contribuírem na organização do espaço. Os vasos de flores
+                também são muito bem-vindos, pois trazem vida e cor ao ambiente.
+            </p>
+            <div class="imagens">
+            <img src="./Banheiro/ban1.jpg">
+            <img src="./Banheiro/ban2.jpg">
+            <img src="./Banheiro/ban3.jpg">
+            </div>
+        </div>
+
+        <!--Formulário-->
+        <form>
+            <p>Solicite um orçamento</p>
+                    
+            <div class="field">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            </div>
+            
+            <div class="field">
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+            </div>
+    
+            <div class="field">
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu E-Mail" required>
+            </div>        
+            
+            <div class="field">
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Mensagem" required></textarea>
+            </div>
+    
+            <input type="submit" name="acao" value="Enviar">
+        </form>
+    
+
+    </div>
+
+</body>
+</html>

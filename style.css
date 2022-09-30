@@ -1,0 +1,59 @@
+body{
+    background-color:rgb(253, 255, 220);
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.paragrafos{
+    word-wrap: normal;
+    width:100vw;
+    word-wrap: break-word;
+    
+
+}
+
+#corpo{
+    margin:10px
+
+}
+
+.cabeça{
+    text-decoration: none;
+    color:#f0f8ff;
+    padding-inline: 40px;
+       
+
+}
+#Cabeçalho{
+
+    background-color: rgb(49, 133, 201);
+    text-align:center;
+    padding: 5px;
+       
+
+}
+
+img{max-height: 250px;
+
+    padding-inline: 5px;
+    border: 2px;
+    border-style: solid;
+    padding: 0;
+    border-color:rgb(49, 133, 201);
+    text-align: center;
+
+}
+
+.imagens{
+    text-align: center;
+
+
+
+}
+
+form{
+    text-align: center;
+    padding-top:40px;
+
+}
+
